@@ -1,0 +1,14 @@
+Model Comparison Summary — Full Metrics (SAM2 vs SAM-HQ pseudo-GT)
+======================================================================
+Total wall-clock time (all models, parallel): 6.38s
+
+  yolov11_n      : mIoU=0.5044   mDice=0.6352   mPrec=0.5654   mRec=0.7606   PixelAcc=0.9904   (evaluated 206, missing 0)
+  yolov11_s      : mIoU=0.4955   mDice=0.6312   mPrec=0.5535   mRec=0.772   PixelAcc=0.9903   (evaluated 206, missing 0)
+  yolov11_m      : mIoU=0.5066   mDice=0.6401   mPrec=0.5676   mRec=0.7649   PixelAcc=0.9908   (evaluated 206, missing 0)
+
+Best overall (by mIoU): yolov11_m
+
+Mine-class comparison:
+  yolov11_n      : IoU=0.5785  Dice=0.7329  Precision=0.5789  Recall=0.9986
+  yolov11_s      : IoU=0.5112  Dice=0.6765  Precision=0.5114  Recall=0.999
+  yolov11_m      : IoU=0.5746  Dice=0.7299  Precision=0.5815  Recall=0.98

@@ -1,0 +1,38 @@
+[
+  {
+    "bbox": [
+      154,
+      387,
+      220,
+      456
+    ],
+    "class": 3,
+    "yolo_conf": 0.9267175197601318,
+    "sam_score": 0.9485868215560913,
+    "mask": "marine_marine-debris-aris3k-1081_0.png"
+  },
+  {
+    "bbox": [
+      308,
+      216,
+      369,
+      280
+    ],
+    "class": 4,
+    "yolo_conf": 0.8834450840950012,
+    "sam_score": 0.796219527721405,
+    "mask": "marine_marine-debris-aris3k-1081_1.png"
+  },
+  {
+    "bbox": [
+      296,
+      202,
+      355,
+      260
+    ],
+    "class": 4,
+    "yolo_conf": 0.2573930323123932,
+    "sam_score": 0.7923314571380615,
+    "mask": "marine_marine-debris-aris3k-1081_2.png"
+  }
+]

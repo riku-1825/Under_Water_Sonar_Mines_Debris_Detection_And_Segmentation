@@ -1,0 +1,4 @@
+tag,mIoU,mDice,mean_precision,mean_recall,overall_pixel_accuracy,images_evaluated,images_missing
+yolov11_n,0.5044,0.6352,0.5654,0.7606,0.9904,206,0
+yolov11_s,0.4955,0.6312,0.5535,0.772,0.9903,206,0
+yolov11_m,0.5066,0.6401,0.5676,0.7649,0.9908,206,0

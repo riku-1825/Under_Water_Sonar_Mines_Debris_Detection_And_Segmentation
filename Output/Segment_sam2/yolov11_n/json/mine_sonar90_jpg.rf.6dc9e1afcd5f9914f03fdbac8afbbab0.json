@@ -1,0 +1,14 @@
+[
+  {
+    "bbox": [
+      224,
+      108,
+      267,
+      167
+    ],
+    "class": 0,
+    "yolo_conf": 0.7967530488967896,
+    "sam_score": 0.7966703176498413,
+    "mask": "mine_sonar90_jpg.rf.6dc9e1afcd5f9914f03fdbac8afbbab0_0.png"
+  }
+]

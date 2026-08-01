@@ -1,0 +1,18 @@
+path: /Sonar_Dataset
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: mine
+  1: can
+  2: bottle
+  3: drink-carton
+  4: chain
+  5: propeller
+  6: tire
+  7: hook
+  8: valve
+  9: shampoo-bottle
+  10: standing-bottle

@@ -1,0 +1,26 @@
+[
+  {
+    "bbox": [
+      182,
+      125,
+      222,
+      167
+    ],
+    "class": 0,
+    "yolo_conf": 0.7654451131820679,
+    "sam_score": 0.788236677646637,
+    "mask": "mine_sonar86_jpg.rf.a7bc6bc21f73e1636afa72a097c8878d_0.png"
+  },
+  {
+    "bbox": [
+      171,
+      188,
+      209,
+      228
+    ],
+    "class": 0,
+    "yolo_conf": 0.7186003923416138,
+    "sam_score": 0.7845353484153748,
+    "mask": "mine_sonar86_jpg.rf.a7bc6bc21f73e1636afa72a097c8878d_1.png"
+  }
+]

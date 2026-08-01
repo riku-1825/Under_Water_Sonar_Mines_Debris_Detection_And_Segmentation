@@ -1,0 +1,26 @@
+[
+  {
+    "bbox": [
+      129,
+      184,
+      277,
+      279
+    ],
+    "class": 7,
+    "yolo_conf": 0.9244687557220459,
+    "sam_score": 0.8158942461013794,
+    "mask": "marine_marine-debris-aris3k-334_0.png"
+  },
+  {
+    "bbox": [
+      198,
+      307,
+      329,
+      437
+    ],
+    "class": 6,
+    "yolo_conf": 0.9199156761169434,
+    "sam_score": 0.9192418456077576,
+    "mask": "marine_marine-debris-aris3k-334_1.png"
+  }
+]

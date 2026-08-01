@@ -1,0 +1,12 @@
+0: background
+1: mine
+2: can
+3: bottle
+4: drink-carton
+5: chain
+6: propeller
+7: tire
+8: hook
+9: valve
+10: shampoo-bottle
+11: standing-bottle

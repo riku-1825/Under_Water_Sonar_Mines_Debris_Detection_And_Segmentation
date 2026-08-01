@@ -1,0 +1,27 @@
+Full Segmentation Evaluation Summary — yolov11_m
+============================================================
+Predicted masks : /mnt/DATA/EE25M305/Sonar_Vision/Output/Output_1/Segment_sam2/yolov11_m/semantic
+GT masks        : /mnt/DATA/EE25M305/Sonar_Vision/Output/Output_1/GT_MASK_samhq_1/yolov11_m_samhq/masks_semantic
+Device used     : cuda:2
+Images evaluated: 206
+Images missing/skipped: 0
+Eval time (s)   : 3.71
+
+mIoU               : 0.5066
+mDice              : 0.6401
+Mean Precision     : 0.5676
+Mean Recall        : 0.7649
+Overall Pixel Acc. : 0.9908  (all classes + background, dataset-wide)
+
+Per-class (IoU / Dice / Precision / Recall / Accuracy):
+  mine                : IoU=0.5746  Dice=0.7299  P=0.5815  R=0.98  Acc=0.9999
+  can                 : IoU=0.6292  Dice=0.7724  P=0.6874  R=0.8813  Acc=0.9993
+  bottle              : IoU=0.3793  Dice=0.55  P=0.4795  R=0.6448  Acc=0.9981
+  drink-carton        : IoU=0.7035  Dice=0.826  P=0.7335  R=0.9451  Acc=0.9996
+  chain               : IoU=0.7391  Dice=0.85  P=0.8155  R=0.8875  Acc=0.9997
+  propeller           : IoU=0.6289  Dice=0.7722  P=0.6983  R=0.8636  Acc=0.9997
+  tire                : IoU=0.2989  Dice=0.4603  P=0.4158  R=0.5155  Acc=0.9973
+  hook                : IoU=0.8324  Dice=0.9085  P=0.9558  R=0.8657  Acc=0.9997
+  valve               : IoU=0.2394  Dice=0.3863  P=0.2614  R=0.7397  Acc=0.9985
+  shampoo-bottle      : IoU=0.4667  Dice=0.6364  P=0.5027  R=0.867  Acc=0.9993
+  standing-bottle     : IoU=0.0809  Dice=0.1497  P=0.1124  R=0.2239  Acc=0.9997

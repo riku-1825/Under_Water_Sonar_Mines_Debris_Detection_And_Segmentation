@@ -1,0 +1,41 @@
+YOLOv11 Inference Summary — yolov11_s
+==================================================
+Weights                 : /mnt/DATA/EE25M305/Sonar_Vision/run/train/sonar_yolov11_s/weights/best.pt
+Source                  : /mnt/DATA/EE25M305/Sonar_Vision/Sonar_Dataset/images/test
+Total images            : 206
+Total detections        : 262
+Images with 0 detections: 0
+Avg inference time (ms) : 14.38
+Avg FPS                 : 72.94
+
+Detections per class:
+  bottle              : 49
+  drink-carton        : 44
+  can                 : 37
+  tire                : 37
+  valve               : 23
+  chain               : 22
+  mine                : 20
+  hook                : 12
+  propeller           : 7
+  shampoo-bottle      : 7
+  standing-bottle     : 4
+
+Overall validation metrics (from --data, if provided):
+  Precision   : 0.9766
+  Recall      : 0.9896
+  mAP@0.5     : 0.983
+  mAP@0.5:0.95: 0.763
+
+Per-class validation metrics:
+  mine                : P=0.9474  R=0.95  mAP50=0.9075  mAP50-95=0.4551
+  can                 : P=0.9958  R=1.0  mAP50=0.995  mAP50-95=0.8407
+  bottle              : P=0.9992  R=1.0  mAP50=0.995  mAP50-95=0.8314
+  drink-carton        : P=1.0  R=0.9883  mAP50=0.995  mAP50-95=0.7478
+  chain               : P=0.8247  R=0.9474  mAP50=0.9503  mAP50-95=0.6066
+  propeller           : P=1.0  R=1.0  mAP50=0.995  mAP50-95=0.7723
+  tire                : P=0.9997  R=1.0  mAP50=0.995  mAP50-95=0.8354
+  hook                : P=1.0  R=1.0  mAP50=0.995  mAP50-95=0.8663
+  valve               : P=0.9987  R=1.0  mAP50=0.995  mAP50-95=0.7982
+  shampoo-bottle      : P=0.9767  R=1.0  mAP50=0.995  mAP50-95=0.7873
+  standing-bottle     : P=1.0  R=1.0  mAP50=0.995  mAP50-95=0.8519

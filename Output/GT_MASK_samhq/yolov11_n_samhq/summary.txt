@@ -1,0 +1,39 @@
+Pseudo-GT Mask Generation Summary — yolov11_n_samhq
+=======================================================
+YOLO weights            : /mnt/DATA/EE25M305/Sonar_Vision/run/train/sonar_yolov11_n/weights/best.pt
+SAM-HQ checkpoint        : /mnt/DATA/EE25M305/Sonar_Vision/sam-hq/checkpoints/sam_hq_vit_l.pth (vit_l)
+Source                   : /mnt/DATA/EE25M305/Sonar_Vision/Sonar_Dataset/images/test
+Total images             : 206
+Images with 0 detections : 0
+Total mask instances     : 267
+Avg SAM-HQ mask score    : 0.8003
+Instances w/ score < 0.85: 169  (inspect these — likely weak masks)
+Avg time / image (ms)    : 436.44
+Avg FPS                  : 2.31
+
+Instances per class:
+  bottle              : 49
+  drink-carton        : 45
+  can                 : 37
+  tire                : 37
+  chain               : 26
+  valve               : 23
+  mine                : 20
+  hook                : 12
+  propeller           : 7
+  shampoo-bottle      : 7
+  standing-bottle     : 4
+
+IMPORTANT: these are auto-generated pseudo-ground-truth masks (SAM-HQ output
+prompted by YOLO boxes), not human-verified ground truth. State this clearly
+when reporting IoU/Dice computed against them.
+
+Folders:
+  masks_binary/    0/255 single-channel binary mask
+  masks_semantic/  pixel value = class_id + 1 (0 = background)
+  semantic_color/  semantic mask rendered with one flat color per class
+  masks_instances/ one 0/255 mask file per detected object (<stem>_<idx>.png)
+  overlays/        mask fill + box + class/confidence label
+  json/            per-image list of {bbox, class, yolo_conf, sam_score, mask}
+  labels/          class_id x_center y_center width height (normalized)
+  labels_seg/      class_id x1 y1 x2 y2 ... (normalized polygon, YOLO-seg format)

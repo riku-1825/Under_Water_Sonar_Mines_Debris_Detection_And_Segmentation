@@ -1,0 +1,33 @@
+2026-08-01 08:34:28 | MainProcess | INFO | Evaluating 3 model(s): ['yolov11_n', 'yolov11_s', 'yolov11_m']
+2026-08-01 08:34:28 | MainProcess | INFO | Class names (11): ['mine', 'can', 'bottle', 'drink-carton', 'chain', 'propeller', 'tire', 'hook', 'valve', 'shampoo-bottle', 'standing-bottle']
+2026-08-01 08:34:28 | MainProcess | INFO | Devices assigned: {'yolov11_n': 'cuda:0', 'yolov11_s': 'cuda:1', 'yolov11_m': 'cuda:2'}
+2026-08-01 08:34:33 | SpawnPoolWorker-2 | INFO | [yolov11_m] starting. pred=/mnt/DATA/EE25M305/Sonar_Vision/Output/Output_1/Segment_sam2/yolov11_m/semantic  gt=/mnt/DATA/EE25M305/Sonar_Vision/Output/Output_1/GT_MASK_samhq_1/yolov11_m_samhq/masks_semantic  device=cuda:2
+2026-08-01 08:34:33 | SpawnPoolWorker-3 | INFO | [yolov11_n] starting. pred=/mnt/DATA/EE25M305/Sonar_Vision/Output/Output_1/Segment_sam2/yolov11_n/semantic  gt=/mnt/DATA/EE25M305/Sonar_Vision/Output/Output_1/GT_MASK_samhq_1/yolov11_n_samhq/masks_semantic  device=cuda:0
+2026-08-01 08:34:33 | SpawnPoolWorker-4 | INFO | [yolov11_s] starting. pred=/mnt/DATA/EE25M305/Sonar_Vision/Output/Output_1/Segment_sam2/yolov11_s/semantic  gt=/mnt/DATA/EE25M305/Sonar_Vision/Output/Output_1/GT_MASK_samhq_1/yolov11_s_samhq/masks_semantic  device=cuda:1
+2026-08-01 08:34:33 | SpawnPoolWorker-2 | INFO | [yolov11_m] processed 25/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-4 | INFO | [yolov11_s] processed 25/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-3 | INFO | [yolov11_n] processed 25/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-2 | INFO | [yolov11_m] processed 50/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-4 | INFO | [yolov11_s] processed 50/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-2 | INFO | [yolov11_m] processed 75/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-3 | INFO | [yolov11_n] processed 50/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-2 | INFO | [yolov11_m] processed 100/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-4 | INFO | [yolov11_s] processed 75/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-3 | INFO | [yolov11_n] processed 75/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-2 | INFO | [yolov11_m] processed 125/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-4 | INFO | [yolov11_s] processed 100/206 images
+2026-08-01 08:34:33 | SpawnPoolWorker-3 | INFO | [yolov11_n] processed 100/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-2 | INFO | [yolov11_m] processed 150/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-4 | INFO | [yolov11_s] processed 125/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-3 | INFO | [yolov11_n] processed 125/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-2 | INFO | [yolov11_m] processed 175/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-4 | INFO | [yolov11_s] processed 150/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-3 | INFO | [yolov11_n] processed 150/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-2 | INFO | [yolov11_m] processed 200/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-2 | INFO | [yolov11_m] DONE in 3.71s. mIoU=0.5066 mDice=0.6401 mPrec=0.5676 mRec=0.7649 PixelAcc=0.9908 (evaluated 206, missing 0)
+2026-08-01 08:34:34 | SpawnPoolWorker-4 | INFO | [yolov11_s] processed 175/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-3 | INFO | [yolov11_n] processed 175/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-4 | INFO | [yolov11_s] processed 200/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-3 | INFO | [yolov11_n] processed 200/206 images
+2026-08-01 08:34:34 | SpawnPoolWorker-4 | INFO | [yolov11_s] DONE in 3.90s. mIoU=0.4955 mDice=0.6312 mPrec=0.5535 mRec=0.7720 PixelAcc=0.9903 (evaluated 206, missing 0)
+2026-08-01 08:34:34 | SpawnPoolWorker-3 | INFO | [yolov11_n] DONE in 3.97s. mIoU=0.5044 mDice=0.6352 mPrec=0.5654 mRec=0.7606 PixelAcc=0.9904 (evaluated 206, missing 0)
