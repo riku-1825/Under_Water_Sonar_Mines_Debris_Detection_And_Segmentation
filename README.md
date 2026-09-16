@@ -214,6 +214,16 @@ The table below summarizes the purpose of each script in this repository.
 
 ---
 
+<p align="center">
+  <img src="Pictures/sonar.jpg" alt="Underwater Sonar Mine & Debris Detection from raw sonar return to YOLOv11 detection to SAM2 segmentation" width="100%">
+</p>
+
+<p align="center"><i>Left: stylised, not-to-scale rendering of the project's three pipeline stages on a single forward-looking sonar (FLS) return - the raw noisy sonar detection, YOLOv11's bounding-box lo-
+calisation with class confidence, and SAM2's pixel-level segmentation mask evaluated against SAM-HQ pseudo-ground-truth. Right: a grouped bar chart of the real, reported overall detection
+metrics for YOLOv11n, YOLOv11s, and YOLOv11m (Precision, Recall, mAP@0.5, mAP@0.5:0.95) on the 11-class mine/debris sonar dataset.</i></p>
+
+---
+
 ## References
 
 This project builds upon the following open-source repositories:
