@@ -492,4 +492,4 @@ dependencies:
       - segment-anything-hq==0.3
       - text-unidecode==1.3
       - triton==3.6.0
-prefix: /mnt/DATA/EE25M305/anaconda3/envs/campus_x
+prefix: /anaconda3/envs/sonar_mine

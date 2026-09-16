@@ -58,6 +58,7 @@ For **SAM2**; **sam2.1_hiera_small.pt** has been used and for **SAMHQ**; **sam_h
 ├── scripts/                  # Scripts for training / inference / evaluation
 ├── LICENSE
 ├── README.md
+├── Sonar_mine.yaml           # For environment creation
 
 ```
 ---
@@ -85,6 +86,21 @@ This project uses a publicly available **Forward-Looking Sonar (FLS)** dataset f
 | Annotation Format | YOLO |
 | Task | Object Detection & Segmentation |
 
+---
+
+---
+## Setup
+
+Clone the repository and create the Conda environment from the YAML file:
+
+```bash
+git clone https://github.com/riku-1825/Under_Water_Sonar_Mines_Debris_Detection_And_Segmentation.git
+cd Under_Water_Sonar_Mines_Debris_Detection_And_Segmentation
+
+conda env create -f sonar_mine.yaml
+conda activate sonar_mine
+
+```
 ---
 
 ---
